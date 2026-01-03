@@ -279,6 +279,10 @@ body {
     letter-spacing: 1px;
 }
 
+.stats-single {
+    text-align: center;
+}
+
 /* Thesis */
 .thesis {
     padding: 8rem 0;
