@@ -396,6 +396,59 @@ body {
     }
 }
 
+/* Team */
+.team {
+    padding: 6rem 0;
+    background: var(--glacier);
+    text-align: center;
+}
+
+.team h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.team-intro {
+    color: var(--rock);
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.team-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.team-origin {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-origin:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.origin-name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.origin-desc {
+    color: var(--rock);
+    font-size: 0.9rem;
+}
+
 /* Quote */
 .quote {
     padding: 6rem 0;
